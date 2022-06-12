@@ -1,0 +1,16 @@
+.recipeDetailes {
+  width: 60%;
+  margin: auto;
+}
+
+.list {
+  text-align: left;
+}
+
+.title {
+  text-align: left;
+}
+
+.instructions {
+  margin-left: 45px;
+}

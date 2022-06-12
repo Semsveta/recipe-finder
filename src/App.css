@@ -1,14 +1,35 @@
 .App {
   text-align: center;
-}
-
-.App {
-  text-align: center;
+  font-size: 18px;
 }
 
 .app-container {
   min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+}
+
+.library {
+  margin-left: 15%;
+  text-align: center;
+}
+
+.pagination {
+  margin-top: 3rem;
+}
+
+.steps {
+  margin-left: 35px;
+}
+
+li {
+  max-width: 90%;
+}
+
+.titleInstructions {
+  text-align: left;
+  margin-left: 20px;
+}
+
+.searchInput {
+  width: 50%;
+  margin-left: 25%;
 }

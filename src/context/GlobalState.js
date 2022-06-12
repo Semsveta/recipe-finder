@@ -2,7 +2,9 @@ import React, { createContext, useReducer } from "react";
 
 const initialState = {
   recipesList: [],
+  recipeDetails: {},
   isDataLoaded: false,
+  isDetailsLoaded: false,
 };
 
 const reducer = (state, action) => {
