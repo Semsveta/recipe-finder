@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 
 const ResipesLit = () => {
   const {
-    state: { recipesList },
+    state: { recipesList, isDataLoaded },
   } = useContext(GlobalContext);
 
   const [currentPage, setCurrentPage] = useState(0);
@@ -49,7 +49,7 @@ const ResipesLit = () => {
 
   return (
     <div>
-      {recipesList && (
+      {isDataLoaded && (
         <dl className="library">
           <div className="pagination">
             <ReactPaginate
